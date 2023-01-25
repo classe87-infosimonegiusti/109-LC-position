@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+/* Regole CSS */
+
+.topbar ul {
+    list-style: none;
+    text-align: center;
+}
+
+.topbar li {
+    padding: 0px 15px;
+    display: inline-block;
+}
+
+header {
+    background-color: #315EE9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+main {
+    padding-top: 120px;
+}
+
+.topbar {
+    height: 100px;
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+}
+
+
+.logo-column {
+    width: 20%;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.topbar .menu-column {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-column {
+    width: 20%;
+    text-align: right;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#jumbotron .content {
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#jumbotron h1 {
+    font-size: 40px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+
+.main-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn.btn-white {
+    color: black;
+    background-color: white;
+}
+
+.btn.btn-small {
+    padding: 8px;
+}
+
+.btn.btn-big {
+    padding: 14px;
+    border-radius: 30px;
+    font-size: 18px;
+    margin: 0px 10px;
+}
+
+.btn.btn-dark {
+    color: white;
+    background-color: #22272A;
+}
