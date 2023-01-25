@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 100px auto;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    position: relative;
+}
+
+.col {
+    width: calc(100% / 3);
+    padding: 20px;
+}
+
+.product img {
+    width: 100%;
+}
+
+.tag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.tag-red {
+    background-color: red;
+}
+
+.tag-yellow {
+    background-color: yellow;
+}

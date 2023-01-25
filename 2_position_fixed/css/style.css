@@ -26,6 +26,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 9;
 }
 
 main {
@@ -110,4 +111,12 @@ main {
 .btn.btn-dark {
     color: white;
     background-color: #22272A;
+}
+
+
+.red-square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
 }
