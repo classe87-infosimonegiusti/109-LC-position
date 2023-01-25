@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.live-1 .red {
+    margin: 50px;
+    width: 400px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+}
+
+.live-1 .red .blue {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.live-1 .red .yellow {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    left: 100%;
+    position: absolute;
+}
+
+.live-2 .red {
+    margin: 50px;
+    width: 400px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+}
+
+.live-2 .red .blue-alto-sx {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.live-2 .red .blue-alto-dx { 
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.live-2 .red .blue-basso-dx { 
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+.live-3 .green {
+    margin: 50px;
+    width: 600px;
+    height: 400px;
+    background-color: green;
+}
+
+.live-3 .green .blue-1 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+}
+
+.live-3 .green .blue-2 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+}
+
+.live-3 .green .blue-1 .yellow-alto-sx {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+
+.live-3 .green .blue-1 .yellow-basso-dx {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+.live-3 .green .blue-2 .yellow-alto-sx {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+
+.live-3 .green .blue-2 .yellow-spostato {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: relative;
+    left: 10px;
+}
